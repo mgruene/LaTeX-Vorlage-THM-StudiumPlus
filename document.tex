@@ -1,0 +1,67 @@
+\documentclass[12pt,a4paper]{THM}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage[ngerman]{babel}
+\usepackage{csquotes}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{blindtext}
+\usepackage[sorting=none]{biblatex}
+\addbibresource{source.bib}
+\usepackage{acronym}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    filecolor=magenta,      
+    linkcolor=black,
+    citecolor=black,
+}
+
+\documentType{Dokumententyp}{SS 2020}
+
+\author{Dein Name}{Deine PLZ}{Dein Ort}{Deine Straße und Hausnummer}{Deine Matnr}
+
+\title{Titel}
+
+\companysupervisor{Der Unternehmensbetreuer}
+\unisupervisor{Der Hochschulbetreuer}
+\company{Deine Firma}{PLZ der Firma}{Ort der Firma}{Straße der Firma}{Bilder/logo.png}
+
+\begin{document}
+
+\maketitle
+\lockMark
+\pagenumbering{Roman}
+\addcontentsline{toc}{chapter}{\contentsname}
+\tableofcontents
+\setcounter{page}{2}
+\newpage
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+\newpage
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+\newpage
+\addcontentsline{toc}{chapter}{Abkürzungsverzeichnis}
+\chapter*{Abkürzungsverzeichnis}
+\input{Inhalt/0_Glossar}
+\newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\input{Inhalt/1_Einleitung}
+\input{Inhalt/2_Grundlagen}
+\input{Inhalt/3_Anforderungen}
+\input{Inhalt/4_Umsetzung}
+\input{Inhalt/5_Fazit}
+
+\printbibliography[title=Literaturverzeichnis]
+
+\pagenumbering{Roman}
+\setcounter{page}{6}
+\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+\makeinsurance
+\end{document}
