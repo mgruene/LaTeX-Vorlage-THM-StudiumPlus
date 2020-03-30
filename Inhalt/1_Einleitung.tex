@@ -1,0 +1,34 @@
+% !TEX root =  document.tex
+
+\chapter{Einleitung}
+\section{Erste Schritte}
+Die \href{https://www.overleaf.com/learn}{Dokumentation} von Overleaf bietet zahlreiche und detaillierte Informationen mit Beispielen für das Erstellen von Dokumenten. Im nächsten Abschnitt findest du einfache Beispiele für die gängigsten Anwendungsfälle.
+
+\newpage
+
+\section{Beispiele}
+So sieht eine neu \glqq section\grqq \space aus, der Header zeigt links das Kapitel und rechts den Abschnitt. Bei der ersten Verwendung von Akronymen wird dieses \ac{z.B.} Ausgeschrieben und in Klammern gedruckt.
+Bei jeder weiteren Verwendung wird anschließend \ac{z.B.} nur die Abkürzung verwendet. Für die Verwendung von Akronymen im Plural kann der Befehl \glqq acp\grqq \space genutzt werden. Anführungszeichen werden mit \glqq glqq\grqq \space und \glqq grqq\grqq \space gesetzt. Quellen können im Harvard Style eingebunden werden. \cite{buch}
+
+Die Einbindung von Bildern funktioniert wie folgt:
+\begin{figure}[h]
+    \includegraphics[width=\textwidth]{Bilder/writing}
+    \caption[Test Bild]{Bildunterschrift mit Quelle \cite{sonstiges}}
+    \label{fig:laptop}
+\end{figure}
+
+Anschließend kann im Text auf die Abbildung \ref{fig:laptop} referenziert werden. Die Benennung des Labels der Abbildung lässt sich frei benennen. Es kann sinnvoll sein, wie im Beispiel zu sehen, durch eine Abkürzung den Typ des Labels zu beschreiben. In diesem Fall  \grqq fig \glqq \space für figure.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c c|}
+        \hline
+         Header 1 & Header 2 & Header 3\\
+         \hline
+         Eintrag 1 & Eintrag 2 & Eintrag 3 \\
+         Eintrag 4 & Eintrag 5 & Eintrag 6\\
+        \hline
+    \end{tabular}
+    \caption{Beispieltabelle}
+    \label{tab:my_label}
+\end{table}
