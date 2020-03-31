@@ -52,7 +52,7 @@ Set your company supervisor with:
 Set your unversity supervisor with:
 
 ```latex
-unisupervisor{Name}
+\unisupervisor{Name}
 ```
 
 ### Company
