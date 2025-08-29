@@ -1,13 +1,18 @@
 # Latex-THM
 
-This is a a LaTex document template for THM and StudiumPlus reports, intended for usage with [Overleaf](https://de.overleaf.com/)
+Dieses LaTeX-Template kann für Praxisphasenberichte und Projektstudiumsberichte verwendet werden. 
+
+Hinweise zur Verwendung des Templates und zur Einbindung von / Arbeit mit Literatur sind zu finden unter [[Leitfaden.MD]]
+
+In das Template wurden die neuen Vorgaben der Richtlinie zum wissenschaftlichen Arbeiten, Stand Februar 2025 eingepflegt. 
+
+Der Rest dieses README folgt dem Original, aus dem dieses Repo geforkt wurde. 
 
 ## Getting Started
 
 ### LaTex Version
 
 Clone this repo and modify the [document.tex](./document.tex) file according to your needs. See [here](./document.pdf) for a preview.
-
 
 ## Custom commands
 
