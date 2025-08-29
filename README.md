@@ -2,7 +2,7 @@
 
 Dieses LaTeX-Template kann für Praxisphasenberichte und Projektstudiumsberichte verwendet werden. 
 
-Hinweise zur Verwendung des Templates und zur Einbindung von / Arbeit mit Literatur sind zu finden unter [[Leitfaden.MD]]
+Hinweise zur Verwendung des Templates und zur Einbindung von / Arbeit mit Literatur sind zu finden unter [Leitfaden.MD]
 
 In das Template wurden die neuen Vorgaben der Richtlinie zum wissenschaftlichen Arbeiten, Stand Februar 2025 eingepflegt. 
 
